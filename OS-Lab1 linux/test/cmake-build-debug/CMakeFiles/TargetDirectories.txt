@@ -1,0 +1,3 @@
+/home/toshich/OS-Labs/OS-Lab1 linux/test/cmake-build-debug/CMakeFiles/test.dir
+/home/toshich/OS-Labs/OS-Lab1 linux/test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/toshich/OS-Labs/OS-Lab1 linux/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
