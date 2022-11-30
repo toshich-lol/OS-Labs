@@ -146,13 +146,8 @@ int main() {
         MultiplyByBlocks(a,b,result,n,i);
         end = std::chrono::steady_clock::now();
         auto nanoseconds = std::chrono::duration_cast<std::chrono::nanoseconds>(end - begin);
-        if (n % i != 0){
-            std::cout << i  << ", it takes " << nanoseconds.count() << " nanoseconds\n";
-            std::cout << std::endl;
-        }else {
-            std::cout << i << ", it takes " << nanoseconds.count() << " nanoseconds\n";
-            std::cout << std::endl;
-        }
+        std::cout << i << ", it takes " << nanoseconds.count() << " nanoseconds\n";
+        std::cout << std::endl;
     }
     return 0;
 }
